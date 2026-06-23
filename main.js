@@ -14,10 +14,3 @@ if (toggle && navLinks) {
     });
   });
 }
-
-document.querySelectorAll('form').forEach((form) => {
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Спасибо за сообщение! Форма пока демонстрационная, сервер не подключён.');
-  });
-});
